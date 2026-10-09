@@ -1,0 +1,26 @@
+# Environment secrets — NEVER commit this
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Uploaded documents (may contain personal data)
+documents/
+
+# FAISS index and metadata
+vectorstore/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
